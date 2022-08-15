@@ -32,3 +32,30 @@ td {
   overflow-x: hidden;
   text-overflow: ellipsis;
 }
+
+.b1 {
+  max-width: 300px; /* ignored */
+  min-width: 200px; /* min */
+  width: 250px; /* max */
+}
+
+.b2 {
+  max-width: 300px; /* ignored */
+  min-width: 200px; /* min */
+  width: 250px; /* max */
+}
+
+.b3 {
+  max-width: 300px; /* ignored */
+  min-width: 200px; /* min */
+  width: 250px; /* max */
+  overflow-wrap: anywhere;
+}
+
+.b4 {
+  max-width: 300px; /* fixed */
+  min-width: 200px; /* ignored */
+  width: 250px; /* ignored */
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
