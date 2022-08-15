@@ -59,3 +59,26 @@ td {
   overflow-x: hidden;
   text-overflow: ellipsis;
 }
+
+.c1 {
+  min-width: 200px; /* min */
+  width: 250px; /* max */
+}
+
+.c2 {
+  min-width: 200px; /* min */
+  width: 250px; /* max */
+}
+
+.c3 {
+  min-width: 200px; /* min */
+  width: 250px; /* max */
+  overflow-wrap: anywhere;
+}
+
+.c4 {
+  min-width: 200px; /* ignored */
+  width: 250px; /* ignored */
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
