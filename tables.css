@@ -82,3 +82,9 @@ td {
   overflow-x: hidden;
   text-overflow: ellipsis;
 }
+
+.d4 {
+  min-width: 200px; /* ignored */
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
