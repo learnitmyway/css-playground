@@ -78,13 +78,19 @@ td {
 
 .c4 {
   min-width: 200px; /* ignored */
-  width: 250px; /* ignored */
+  width: 250px; /* ignored, column is fixed to content width */
   overflow-x: hidden;
   text-overflow: ellipsis;
 }
 
-.d4 {
-  min-width: 200px; /* ignored */
+.d {
+  min-width: 200px; /* ignored, column width is not fixed */
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.e {
+  width: 250px; /* ignored, column is fixed to content width */
   overflow-x: hidden;
   text-overflow: ellipsis;
 }
